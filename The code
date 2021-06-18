@@ -114,6 +114,7 @@ distinct()
 duplicates <- us_census %>%
 duplicated() %>%
 table() 
+duplicates
 ```
 
 ```{r error=TRUE}
